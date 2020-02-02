@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clean Hoover</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="The official website of the Clean Hoover Initiative">
+    <meta name="keywords" content="CleanHoover, cleanhoover, clean hoover, hoover, hoover city, alabama, clean alabama, clean georgia, hoover parks and recreation">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="images/cleanHooverFavicon.png">
+    <script src="https://kit.fontawesome.com/391a7fb1dc.js"></script>
+</head>
+<body class="">
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo"></a>
+            <nav id="nav"> <a href="index.html">Home</a> <a href="ourStory.html">Our Story</a>  <a href="leadership.html">Leadership</a> <a href="#footer">Contact</a> </nav> <a href="#navPanel" class="navPanelToggle"><span class="fas fa-bars"></span></a></div>
+        </header>
+    <section id="banner">
+        <div class="inner">
+            <header>
+                <h1>Clean Hoover Initiative</h1> </header>
+            <div class="flex ">
+                <div>
+                    <h3>Caring</h3>
+                    <p>Caring for the environment</p>
+                </div>
+                <div>
+                    <h3>Committed</h3>
+                    <p>Committed to future generations</p>
+                </div>
+            </div>
+            <!-- <footer> <a href="https://cleanhoovertech.wixsite.com/cleanhoover/events" target="_blank" class="button" style="background-color: #49aa5b !important; color: white !important">Volunteer</a> </footer> -->
+        </div>
+    </section>
+    <section id="three" class="wrapper align-center">
+        <div class="inner">
+            <div class="flex flex-2">
+                <article>
+                    <header>
+                        <h3 class="trashGallonsNumber"><strong>12,000+</strong><br /></h3>
+                    </header> <nobr></nobr><nobr></nobr>
+                    <p>Over 12,000 gallons of trash has been collected <br />by Clean Hoover volunteers</p>
+                    <footer></footer>
+                </article>
+                <article>
+                    <header>
+                        <h3 class="volunteerNumbers"><strong>500+</strong> <br /></h3>
+                    </header>
+                    <p>With the help of our partners<br /> Over 500 people have volunteered to keep Hoover beautiful</p>
+                    <footer></footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Why the environment?</h3> </header>
+                        <p>The environment serves an essential role in our lives.
+                        <br />It is important that we care and conserve it for the future.
+                        <br />
+                    </p>
+                    <footer> </footer>
+                </article>
+                <article>
+                    <header>
+                        <h3>Our Approach<br /></h3> </header>
+                    <p>We mobilize a team of volunteers to help clean up and maintain
+                        <br>the purity of our local parks and environment.
+                        <br></p>
+                    <footer> </footer>
+                </article>
+                
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="inner">
+            <h3 class="mobileOptimization">Send us an email</h3>
+            <div class="social">
+                <ul class="icons">
+                    <li><a href="https://www.facebook.com/cleanhoover/" target="_blank" class="icon fab fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/cleanhoover/" target="_blank" class="icon fab fa-instagram"><span class="label">Instagram</span></a></li>
+                </ul>
+            </div>
+            <form id="contactForm">
+                <div class="field half first">
+                    <label for="name">Name</label>
+                    <input name="name" id="name" type="text" placeholder="Name">
+                </div>
+                <div class="field half">
+                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" placeholder="Email">
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                </div>
+                <ul class="actions">
+                    <li>
+                        <input value="Send Message" class="button alt" type="submit" id="submit-form">
+                    </li>
+                </ul>
+            </form>
+            <div class="copyright"> &copy; 2019 Clean Hoover Initiative &#9864; <a href="privacy.html">Privacy Policy</a>
+                <br> &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplashs</a>.</div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src='assets/js/google-sheet.js'></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/391a7fb1dc.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143401153-1"></script>
+    <script>
+        
+        var request;$("#contactForm").submit(function(e){request&&request.abort();var o=$(this),r=o.find("input, select, button, textarea"),t=o.serialize();r.prop("disabled",!0),(request=$.ajax({url:"https://script.google.com/macros/s/AKfycbzdBqsn1kRCIAruVP6ibpbFKrwEIUxU4_0ctCRuLhcrDbcqB0mm/exec",type:"post",data:t})).done(function(e,r,t){o[0].reset(),console.log("Hooray, it worked!"),console.log(e),console.log(r),console.log(t)}),request.fail(function(e,o,r){console.error("The following error occurred: "+o,r)}),request.always(function(){r.prop("disabled",!1)}),e.preventDefault()}); 
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-143401153-1');
+    </script>
+</body>
+</html>
