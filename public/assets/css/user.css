@@ -5,7 +5,11 @@
 .newsImage {
     width: 100%;
 }
-.icon {
+.media .icon {
     color:black;
     font-size: 1.4em;
+}
+.leader .icon {
+    color: black;
+    font-size: 1em;
 }
