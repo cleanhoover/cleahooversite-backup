@@ -2,3 +2,10 @@
     width: 100%;
     text-align: center;
 }
+.newsImage {
+    width: 100%;
+}
+.icon {
+    color:black;
+    font-size: 1.4em;
+}
