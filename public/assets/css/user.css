@@ -19,3 +19,6 @@
     background-clip: transparent;
     -webkit-text-fill-color: transparent;
 }
+.personLink {
+    color: green;
+}
