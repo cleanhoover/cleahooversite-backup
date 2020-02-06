@@ -13,3 +13,9 @@
     color: black;
     font-size: 1em;
 }
+.fa-instagram {
+    background: -webkit-linear-gradient(200deg, #d047d1, red, #ff0);
+    -webkit-background-clip: text;
+    background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+}
