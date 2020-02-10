@@ -19,6 +19,10 @@
     background-clip: transparent;
     -webkit-text-fill-color: transparent;
 }
+.fa-globe {
+    font-size: 1.5em;
+    color: black;
+}
 .personLink {
     color: green;
 }
