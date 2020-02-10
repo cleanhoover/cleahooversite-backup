@@ -17,7 +17,11 @@
       "source": "/foo{,/**}",
       "destination": "/bar",
       "type": 301
-    } ],
+    }, {
+      "source": "**/*.@(partners|partner|relations)",
+      "destination": "/partnerships",
+      "type": 301
+    }],
     "headers": [
       {
         "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
