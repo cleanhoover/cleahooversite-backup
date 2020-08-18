@@ -26,3 +26,7 @@
 .personLink {
     color: green;
 }
+#peopleOne {
+    border-bottom: 2px solid grey;
+    margin-bottom: 2%;
+}
